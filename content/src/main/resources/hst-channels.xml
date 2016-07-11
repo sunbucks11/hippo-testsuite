@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:channels">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:channels">
   <sv:property sv:name="jcr:primaryType" sv:type="Name">
     <sv:value>hst:channels</sv:value>
   </sv:property>
@@ -38,6 +37,31 @@
       </sv:property>
       <sv:property sv:name="test" sv:type="String">
         <sv:value>Some prop</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="intranet">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:channel</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:channelinfoclass" sv:type="String">
+      <sv:value>org.hippoecm.hst.intranet.channels.WebsiteInfo</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:lastmodifiedby" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:name" sv:type="String">
+      <sv:value>My Hippo Project</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:type" sv:type="String">
+      <sv:value>website</sv:value>
+    </sv:property>
+    <sv:node sv:name="hst:channelinfo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:channelinfo</sv:value>
+      </sv:property>
+      <sv:property sv:name="headerName" sv:type="String">
+        <sv:value>HST Website</sv:value>
       </sv:property>
     </sv:node>
   </sv:node>

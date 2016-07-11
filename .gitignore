@@ -100,3 +100,4 @@ solr/target
 /storage
 /target
 /velocity.log
+.DS_Store

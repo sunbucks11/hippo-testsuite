@@ -33,6 +33,11 @@
       <li>
           <a href="${about}">About Us</a>
       </li>
+      
+      <li>
+          <a href="http://localhost:9000/">Admin</a>
+      </li>
+      
     </ul>
   </div>
 </div>

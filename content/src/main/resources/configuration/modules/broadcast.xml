@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" xmlns:esv="http://www.onehippo.org/jcr/xmlimport" sv:name="broadcast" esv:merge="combine">
+  <sv:node sv:name="hippo:moduleconfig" esv:merge="combine">
+    <sv:node sv:name="default">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippobroadcast:clusternode</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:skipindex</sv:value>
+      </sv:property>
+      <sv:node sv:name="basic">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippobroadcast:subscriber</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippobroadcast:lastProcessed" sv:type="Long">
+          <sv:value>1468252765542</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

@@ -175,10 +175,9 @@ sv:name="hst:componentconfigurationmappingvalues" sv:type="String"&amp;gt;
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
-        <sv:value>preview</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>products/alfa-romeo</sv:value>
+        <sv:value>products/alfa-romeo/alfa-romeo[2]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:holder" sv:type="String">
         <sv:value>admin</sv:value>
@@ -208,6 +207,189 @@ sv:name="hst:componentconfigurationmappingvalues" sv:type="String"&amp;gt;
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
         <sv:value>2010-06-25T13:14:21.821+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>demosite-products-alfa-romeo-translation-id</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="demosite:body">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt; &lt;body&gt; &lt;p&gt;body
+            l&lt;/p&gt;
+            &lt;/body&gt; &lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="demosite:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>07464293-3c92-4ebe-8f01-89bd3e92a0bf</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="alfa-romeo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>demosite:productdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d6aa3da1-fd96-4e44-a8dc-40c334df3b3e</sv:value>
+      </sv:property>
+      <sv:property sv:name="demosite:brand" sv:type="String">
+        <sv:value>Alfa Romeo</sv:value>
+      </sv:property>
+      <sv:property sv:name="demosite:color" sv:type="String">
+        <sv:value>grey</sv:value>
+      </sv:property>
+      <sv:property sv:name="demosite:constructiondate" sv:type="Date">
+        <sv:value>2010-01-11T15:00:17.613+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="demosite:created" sv:type="Date">
+        <sv:value>2009-12-18T14:03:48.173+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="demosite:mileage" sv:type="Long">
+        <sv:value>125356</sv:value>
+      </sv:property>
+      <sv:property sv:name="demosite:price" sv:type="Double">
+        <sv:value>7234.0</sv:value>
+      </sv:property>
+      <sv:property sv:name="demosite:product" sv:type="String">
+        <sv:value>car</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>products/alfa-romeo/alfa-romeo</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+        <sv:value>Alfa Romeo</sv:value>
+        <sv:value>italian</sv:value>
+        <sv:value>car</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-01-21T12:34:11.055+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2010-01-22T12:34:11.055+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>demosite-products-alfa-romeo-translation-id</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="demosite:body">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippostd:html</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:content" sv:type="String">
+          <sv:value>&lt;html&gt; &lt;body&gt; &lt;p&gt;body
+            l&lt;/p&gt;
+            &lt;/body&gt; &lt;/html&gt;</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="demosite:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>07464293-3c92-4ebe-8f01-89bd3e92a0bf</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="alfa-romeo">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>demosite:productdocument</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+        <sv:value>hippostd:taggable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>603ebe9d-0f1f-43cf-b72f-11463d30e430</sv:value>
+      </sv:property>
+      <sv:property sv:name="demosite:brand" sv:type="String">
+        <sv:value>Alfa Romeo</sv:value>
+      </sv:property>
+      <sv:property sv:name="demosite:color" sv:type="String">
+        <sv:value>grey</sv:value>
+      </sv:property>
+      <sv:property sv:name="demosite:constructiondate" sv:type="Date">
+        <sv:value>2010-01-11T15:00:17.613+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="demosite:created" sv:type="Date">
+        <sv:value>2009-12-18T14:03:48.173+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="demosite:mileage" sv:type="Long">
+        <sv:value>125356</sv:value>
+      </sv:property>
+      <sv:property sv:name="demosite:price" sv:type="Double">
+        <sv:value>7234.0</sv:value>
+      </sv:property>
+      <sv:property sv:name="demosite:product" sv:type="String">
+        <sv:value>car</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>products/alfa-romeo/alfa-romeo</sv:value>
+        <sv:value>products/alfa-romeo/alfa-romeo[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:holder" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+        <sv:value>Alfa Romeo</sv:value>
+        <sv:value>italian</sv:value>
+        <sv:value>car</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2010-01-21T12:34:11.055+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-07-11T13:02:39.714+01:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>demosite-products-alfa-romeo-translation-id</sv:value>
@@ -805,6 +987,469 @@ sv:name="hst:componentconfigurationmappingvalues" sv:type="String"&amp;gt;
         <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
         <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="dummy-1468239685330">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>358e53a9-0e74-484a-accd-3b9ffbe0b9c3</sv:value>
+    </sv:property>
+    <sv:node sv:name="folder1468239685330">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5ed3a99e-5c8d-4dc3-be50-24cd7ca72982</sv:value>
+      </sv:property>
+      <sv:node sv:name="Smart-1468239685331">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>05f59486-744f-49ac-879a-193266a4da5f</sv:value>
+        </sv:property>
+        <sv:node sv:name="Smart-1468239685331">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>demosite:productdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippostd:taggable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>81716c39-123f-45be-9ab8-d9b80ccfd772</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:brand" sv:type="String">
+            <sv:value>Smart</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:color" sv:type="String">
+            <sv:value>blue</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:constructiondate" sv:type="Date">
+            <sv:value>2009-06-04T06:45:25.331+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:created" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.331+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:mileage" sv:type="Long">
+            <sv:value>156717</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:price" sv:type="Double">
+            <sv:value>5245.0</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:product" sv:type="String">
+            <sv:value>car</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>products/dummy-1468239685330/folder1468239685330/Smart-1468239685331</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+            <sv:value>German</sv:value>
+            <sv:value>Smart</sv:value>
+            <sv:value>smart centers</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin￿writable</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.332+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.332+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin￿writable</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.332+01:00</sv:value>
+          </sv:property>
+          <sv:node sv:name="demosite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt; &lt;body&gt; &lt;p&gt;body &lt;/p&gt; &lt;/body&gt; &lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="folder1244094325331">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>9dbf8ff5-ee9c-4346-af5e-f3489032d90e</sv:value>
+      </sv:property>
+      <sv:node sv:name="Suzuki-1468239685428">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>e2d49fc9-f55b-4672-9bad-838277b394a8</sv:value>
+        </sv:property>
+        <sv:node sv:name="Suzuki-1468239685428">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>demosite:productdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippostd:taggable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>cf62d6b3-a301-4c07-bdcc-4289b05b654d</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:brand" sv:type="String">
+            <sv:value>Suzuki</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:color" sv:type="String">
+            <sv:value>black</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:constructiondate" sv:type="Date">
+            <sv:value>2009-05-30T12:08:25.428+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:created" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.429+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:mileage" sv:type="Long">
+            <sv:value>152798</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:price" sv:type="Double">
+            <sv:value>5764.0</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:product" sv:type="String">
+            <sv:value>car</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>products/dummy-1468239685330/folder1244094325331/Suzuki-1468239685428</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+            <sv:value>Janapese</sv:value>
+            <sv:value>Suzuki</sv:value>
+            <sv:value>motorcycles</sv:value>
+            <sv:value>cheap</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin￿writable</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.429+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.429+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin￿writable</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.429+01:00</sv:value>
+          </sv:property>
+          <sv:node sv:name="demosite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt; &lt;body&gt; &lt;p&gt;body &lt;/p&gt; &lt;/body&gt; &lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="Smart-1468239685429">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>bd014075-e11c-4226-9a56-bf7cd941a0a9</sv:value>
+        </sv:property>
+        <sv:node sv:name="Smart-1468239685429">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>demosite:productdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippostd:taggable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>226bcc94-d25b-4df1-a2b9-d70e8ef59e80</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:brand" sv:type="String">
+            <sv:value>Smart</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:color" sv:type="String">
+            <sv:value>grey</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:constructiondate" sv:type="Date">
+            <sv:value>2000-05-27T05:02:25.429+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:created" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.430+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:mileage" sv:type="Long">
+            <sv:value>24009</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:price" sv:type="Double">
+            <sv:value>9906.0</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:product" sv:type="String">
+            <sv:value>car</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>products/dummy-1468239685330/folder1244094325331/Smart-1468239685429</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+            <sv:value>German</sv:value>
+            <sv:value>Smart</sv:value>
+            <sv:value>smart centers</sv:value>
+            <sv:value>Daimler AG</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin￿writable</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.430+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.430+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin￿writable</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.430+01:00</sv:value>
+          </sv:property>
+          <sv:node sv:name="demosite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt; &lt;body&gt; &lt;p&gt;body &lt;/p&gt; &lt;/body&gt; &lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="Jeep-1468239685431">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f58c9056-ea3c-4d51-bd5c-9fb23154b599</sv:value>
+        </sv:property>
+        <sv:node sv:name="Jeep-1468239685431">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>demosite:productdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippostd:taggable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>881372b2-2017-4124-ab57-b56f80440104</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:brand" sv:type="String">
+            <sv:value>Jeep</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:color" sv:type="String">
+            <sv:value>blue</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:constructiondate" sv:type="Date">
+            <sv:value>2016-03-24T17:46:25.431Z</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:created" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.431+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:mileage" sv:type="Long">
+            <sv:value>189916</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:price" sv:type="Double">
+            <sv:value>67822.0</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:product" sv:type="String">
+            <sv:value>car</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>products/dummy-1468239685330/folder1244094325331/Jeep-1468239685431</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+            <sv:value>off-road</sv:value>
+            <sv:value>Nekaf</sv:value>
+            <sv:value>Jeep</sv:value>
+            <sv:value>Chrysler</sv:value>
+            <sv:value>US</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin￿writable</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.431+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.431+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin￿writable</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.431+01:00</sv:value>
+          </sv:property>
+          <sv:node sv:name="demosite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt; &lt;body&gt; &lt;p&gt;body &lt;/p&gt; &lt;/body&gt; &lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="Hyundai-1468239685432">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>b0555ca1-b4a4-4161-8ef2-bdd2cbe06411</sv:value>
+        </sv:property>
+        <sv:node sv:name="Hyundai-1468239685432">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>demosite:productdocument</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+            <sv:value>hippostd:taggable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>70c34cf3-dc7c-489d-a80e-7ce2239aaca4</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:brand" sv:type="String">
+            <sv:value>Hyundai</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:color" sv:type="String">
+            <sv:value>red</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:constructiondate" sv:type="Date">
+            <sv:value>2009-06-16T09:19:25.432+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:created" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.432+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:mileage" sv:type="Long">
+            <sv:value>119179</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:price" sv:type="Double">
+            <sv:value>19076.0</sv:value>
+          </sv:property>
+          <sv:property sv:name="demosite:product" sv:type="String">
+            <sv:value>car</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>products/dummy-1468239685330/folder1244094325331/Hyundai-1468239685432</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:tags" sv:type="String" sv:multiple="true">
+            <sv:value>South-Korean</sv:value>
+            <sv:value>Kia</sv:value>
+            <sv:value>Hyundai</sv:value>
+            <sv:value>large company</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin￿writable</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.433+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.432+01:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin￿writable</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2016-07-11T13:21:25.433+01:00</sv:value>
+          </sv:property>
+          <sv:node sv:name="demosite:body">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt; &lt;body&gt; &lt;p&gt;body &lt;/p&gt; &lt;/body&gt; &lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
       </sv:node>
     </sv:node>
   </sv:node>
