@@ -1,27 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sv:node sv:name="hst:sitemenus" xmlns:sv="http://www.jcp.org/jcr/sv/1.0">
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:sitemenus">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:sitemenus</sv:value>
+  </sv:property>
+  <sv:node sv:name="main">
     <sv:property sv:name="jcr:primaryType" sv:type="Name">
-        <sv:value>hst:sitemenus</sv:value>
+      <sv:value>hst:sitemenu</sv:value>
     </sv:property>
-    <sv:node sv:name="main">
-        <sv:property sv:name="jcr:primaryType" sv:type="Name">
-            <sv:value>hst:sitemenu</sv:value>
-        </sv:property>
-        <sv:node sv:name="Accueil">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>hst:sitemenuitem</sv:value>
-            </sv:property>
-            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-                <sv:value>homeId</sv:value>
-            </sv:property>
-        </sv:node>
-        <sv:node sv:name="A propos">
-            <sv:property sv:name="jcr:primaryType" sv:type="Name">
-                <sv:value>hst:sitemenuitem</sv:value>
-            </sv:property>
-            <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
-                <sv:value>a-propos</sv:value>
-            </sv:property>
-        </sv:node>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hst:editable</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:lastmodified" sv:type="Date">
+      <sv:value>2016-07-12T14:03:08.892+01:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:lockedby" sv:type="String">
+      <sv:value>admin</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:lockedon" sv:type="Date">
+      <sv:value>2016-07-12T14:03:08.885+01:00</sv:value>
+    </sv:property>
+    <sv:node sv:name="Accueil">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>homeId</sv:value>
+      </sv:property>
     </sv:node>
+    <sv:node sv:name="A propos">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:referencesitemapitem" sv:type="String">
+        <sv:value>a-propos</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="Untitled">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hst:sitemenuitem</sv:value>
+      </sv:property>
+      <sv:property sv:name="hst:repobased" sv:type="Boolean">
+        <sv:value>false</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
 </sv:node>
